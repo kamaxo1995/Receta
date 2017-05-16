@@ -22,8 +22,11 @@ private class receta {
             this.Preparacion = Preparacion;
         }
 
-        public receta() {
+        public receta(String Nombre) {
+            this.Nombre = Nombre;
         }
+
+        
     }
     public static void main(String[] args) {
         // TODO code application logic here
