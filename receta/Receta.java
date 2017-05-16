@@ -49,7 +49,10 @@ private class receta {
         public receta(String Nombre) {
             this.Nombre = Nombre;
         }
-
+      public class Ingredientes {
+          String cantidad;
+          String nombre;
+      }
         
     }
     public static void main(String[] args) {
