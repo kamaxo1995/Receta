@@ -12,7 +12,9 @@ package receta;
 public class Receta {
 
 private class receta {
-    
+    String Nombre;
+    String Ingredientes;
+    String Preparacion;
 }
     public static void main(String[] args) {
         // TODO code application logic here
