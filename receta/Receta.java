@@ -15,7 +15,16 @@ private class receta {
     String Nombre;
     String Ingredientes;
     String Preparacion;
-}
+
+        public receta(String Nombre, String Ingredientes, String Preparacion) {
+            this.Nombre = Nombre;
+            this.Ingredientes = Ingredientes;
+            this.Preparacion = Preparacion;
+        }
+
+        public receta() {
+        }
+    }
     public static void main(String[] args) {
         // TODO code application logic here
     }
