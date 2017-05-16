@@ -22,6 +22,30 @@ private class receta {
             this.Preparacion = Preparacion;
         }
 
+        public String getNombre() {
+            return Nombre;
+        }
+
+        public void setNombre(String Nombre) {
+            this.Nombre = Nombre;
+        }
+
+        public String getIngredientes() {
+            return Ingredientes;
+        }
+
+        public void setIngredientes(String Ingredientes) {
+            this.Ingredientes = Ingredientes;
+        }
+
+        public String getPreparacion() {
+            return Preparacion;
+        }
+
+        public void setPreparacion(String Preparacion) {
+            this.Preparacion = Preparacion;
+        }
+
         public receta(String Nombre) {
             this.Nombre = Nombre;
         }
