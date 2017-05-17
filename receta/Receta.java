@@ -15,8 +15,8 @@ private class receta {
     String Nombre;
     String Ingredientes;
 
-        @Override
-        public String toString() {
+        
+        public String ArrayList() {
             return "receta{" + "Ingredientes=" + Ingredientes + '}';
         }
     String Preparacion;
