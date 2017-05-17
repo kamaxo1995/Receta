@@ -14,6 +14,11 @@ public class Receta {
 private class receta {
     String Nombre;
     String Ingredientes;
+
+        @Override
+        public String toString() {
+            return "receta{" + "Ingredientes=" + Ingredientes + '}';
+        }
     String Preparacion;
 
         public receta(String Nombre, String Ingredientes, String Preparacion) {
