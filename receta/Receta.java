@@ -55,7 +55,8 @@ private class receta {
             this.Nombre = Nombre;
         }
       public class Ingredientes {
-          String cantidad;
+          float cantidad;
+          String unidad;
           String nombre;
       }
         
