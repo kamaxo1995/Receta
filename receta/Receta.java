@@ -67,7 +67,7 @@ private class receta {
           String unidad;
           String nombre;
       }
-        
+
     }
     public static void main(String[] args) {
         // TODO code application logic here
