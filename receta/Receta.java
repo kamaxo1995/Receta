@@ -11,6 +11,10 @@ package receta;
  */
 public class Receta {
 
+    protected Object addingrediente() throws CloneNotSupportedException {
+        return addingrediente(); //To change body of generated methods, choose Tools | Templates.
+    }
+  
 private class receta {
     String Nombre;
     String Ingredientes;
@@ -20,6 +24,7 @@ private class receta {
             return "receta{" + "Ingredientes=" + Ingredientes + '}';
         }
     String Preparacion;
+
 
         public receta(String Nombre, String Ingredientes, String Preparacion) {
             this.Nombre = Nombre;
@@ -66,11 +71,10 @@ private class receta {
         }
           String unidad;
           String nombre;
-      }
-
+        }
+        
     }
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
-}
+  }
