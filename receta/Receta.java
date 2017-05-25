@@ -14,8 +14,17 @@ public class Receta {
     protected Object addingrediente() throws CloneNotSupportedException {
         return addingrediente(); //To change body of generated methods, choose Tools | Templates.
     }
-  
-private class receta {
+    
+
+    /**
+     *
+     * @return
+     * @throws CloneNotSupportedException
+     */
+    protected Object addpreparacion() throws CloneNotSupportedException {
+        return addpreparacion(); //To change body of generated methods, choose Tools | Templates.  
+    }
+class receta {
     String Nombre;
     String Ingredientes;
 
@@ -60,7 +69,15 @@ private class receta {
             this.Nombre = Nombre;
         }
       public class Ingredientes {
+
+            @Override
+            public String toString() {
+                char tomate = 0;
+                String kg = null;
+                return "Ingredientes{" + "cantidad=" + 3 + ", unidad=" + kg + ", nombre=" + tomate + '}';
+            }
           float cantidad;
+          
 
         public String getUnidad() {
             return unidad;
