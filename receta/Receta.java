@@ -24,15 +24,19 @@ public class Receta {
     protected Object addpreparacion() throws CloneNotSupportedException {
         return addpreparacion(); //To change body of generated methods, choose Tools | Templates.  
     }
+     String cantidad;
+
 class receta {
+
+       
     String Nombre;
     String Ingredientes;
-
-        
-        public String ArrayList() {
-            return "receta{" + "Ingredientes=" + Ingredientes + '}';
-        }
     String Preparacion;
+
+        @Override
+        public String toString() {
+            return "receta{" + "Nombre=" + Nombre + ", Ingredientes=" + Ingredientes + ", Preparacion=" + Preparacion + '}';
+        }
 
 
         public receta(String Nombre, String Ingredientes, String Preparacion) {
