@@ -28,6 +28,24 @@ public class Receta {
 
 class receta {
 
+        public int getPersonas() {
+            return personas;
+        }
+
+        public void setPersonas(int personas) {
+            this.personas = personas;
+        }
+
+        public String getAutor() {
+            return autor;
+        }
+
+        public void setAutor(String autor) {
+            this.autor = autor;
+        }
+
+    int personas = 4;
+    String autor;
        
     String Nombre;
     String Ingredientes;
